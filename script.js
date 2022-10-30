@@ -75,7 +75,7 @@
 //       typeof y == "number" &&
 //       typeof y != "undefined"
 //     ) {
-//       resolve("sucsses");
+//       resolve("success");
 //     } else {
 //       reject("ERROR!!!");
 //     }
