@@ -44,6 +44,8 @@ class Car {
   accelerate = (speedon = 0) => {
     if (speedon > 0) {
       return this.status((this.speed += speedon));
+    } else{
+      return this.status();
     }
   };
   brake = (speedoff = 0) => {
@@ -83,3 +85,4 @@ function addAsync(x, y) {
 addAsync(1, 8)
   .then((num) => console.log(num))
   .catch((err) => console.log(err));
+
